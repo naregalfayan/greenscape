@@ -1,0 +1,196 @@
+/* 
+#2a6560
+#41B467
+#5ABCB9
+#63E2C6
+#6EF9F5 
+#2d6a4f
+*/
+* {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  margin: 0px;
+  color: #1b4332;
+}
+
+#navbar {
+  position: fixed;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 100%;
+  box-shadow: 1px 2px 7px rgb(187, 186, 186);
+  z-index: 100;
+}
+.navbar_logo {
+  transition: transform 0.2s; /* Animation */
+}
+.navbar_logo:hover {
+  transform: scale(1.1);
+}
+
+.navbar_menu ul {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+.navbar_menu a {
+  text-decoration: none;
+  color: #2d6a4f;
+}
+.navbar_menu a:hover {
+  color: #41b467;
+}
+
+.navbar_menu .current {
+  color: #41b467;
+}
+
+.navbar_menu li {
+  margin: 0px 30px;
+}
+.bi {
+  margin: 0px 10px;
+  display: inline-block;
+  font-size: 17.5px;
+  color: #1b4332;
+}
+
+.navbar_icons {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  transition: transform 0.2s;
+  color: #2d6a4f;
+}
+
+.navbar_icons i:hover {
+  color: #41b467;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#slider {
+  display: flex;
+  justify-content: center;
+}
+
+#products {
+  height: 1700px;
+  margin-bottom: 50px;
+}
+
+span {
+  font-size: 15px;
+}
+.products_item a {
+  text-decoration: none;
+  color: #1b4332;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
+  justify-content: center;
+  grid-gap: 50px;
+}
+
+.products_item {
+  transition: transform 0.2s;
+}
+
+.products_item:hover {
+  transform: scale(1.02);
+}
+
+.products_item_price {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0px;
+  padding: 70px;
+}
+
+#footer {
+  height: 170px;
+  display: flex;
+  padding: 30px;
+  /* background-color: #63e2c6; */
+}
+
+.footer_about {
+  width: 40%;
+}
+.footer_about p {
+  font-size: 15px;
+}
+
+.footer_menu {
+  width: 35%;
+}
+.footer_menu ul {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.footer_menu a {
+  color: #1b4332;
+  text-decoration: none;
+}
+
+.footer_subscribe {
+  width: 25%;
+}
+
+.footer_input-box_email {
+  height: 20px;
+  width: 190px;
+}
+
+.footer_input-box_button {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #40916c;
+  color: white;
+  height: 25px;
+  width: 90px;
+}
+
+.footer_input-box_button:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.footer_subscribe img {
+  height: 30px;
+  padding: 15px;
+  float: right;
+  transition: transform 0.2s;
+}
+
+.footer_subscribe img:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+  color: whitesmoke;
+  background-color: #1b4332;
+}

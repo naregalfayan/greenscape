@@ -1,0 +1,306 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  margin: 0px;
+  color: #1b4332;
+  top: 0;
+}
+
+#navbar {
+  position: fixed;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 100%;
+  box-shadow: 1px 2px 7px rgb(187, 186, 186);
+  z-index: 100;
+  top: 0px;
+}
+.navbar_logo {
+  transition: transform 0.2s; /* Animation */
+}
+.navbar_logo:hover {
+  transform: scale(1.1);
+}
+
+.navbar_menu ul {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+.navbar_menu a {
+  text-decoration: none;
+  color: #2d6a4f;
+}
+.navbar_menu a:hover {
+  color: #41b467;
+}
+
+.navbar_menu .current {
+  color: #41b467;
+}
+
+.navbar_menu li {
+  margin: 0px 30px;
+}
+.bi {
+  margin: 0px 10px;
+  display: inline-block;
+  font-size: 17.5px;
+  color: #1b4332;
+}
+
+.navbar_icons {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  transition: transform 0.2s;
+  color: #2d6a4f;
+}
+
+.navbar_icons i:hover {
+  color: #41b467;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+#slider {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  font-size: 15px;
+}
+
+#products {
+  height: 700px;
+}
+
+#products a {
+  text-decoration: none;
+  color: #1b4332;
+}
+.section_header {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  justify-content: center;
+  grid-gap: 50px;
+}
+
+.products_item_price {
+  float: right;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  background-color: #63e2c6;
+}
+.about_video {
+  display: flex;
+  justify-content: left;
+  height: 400px;
+}
+
+.button {
+  border: none;
+  border-radius: 2px;
+  padding: 8px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.button:hover {
+  background-color: #04aa6d;
+}
+
+.button a {
+  text-decoration: none;
+  color: #1b4332;
+}
+
+.about_description h1 {
+  font-size: 40px;
+}
+
+.about_description p {
+  font-size: 18px;
+}
+
+.about_description h5 {
+  font-size: 20px;
+}
+
+#photo-slide {
+  height: 430px;
+  text-align: center;
+  padding: 10px;
+}
+
+h2,
+#photo-slide h1 {
+  margin: 0px;
+}
+
+#photo-slide h1 {
+  font-size: 36px;
+}
+
+#photo-slide a {
+  text-decoration: none;
+  color: #40916c;
+}
+
+#photo-slide a:hover {
+  color: #41b467;
+}
+
+#photo-slide h1 {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#photo-slide img {
+  padding: 10px;
+}
+
+.photo-slide_instalogo {
+  height: 40px;
+  margin: 0px;
+}
+
+.photo-slide_instalogo,
+.photo-slide_container_img,
+.products_item {
+  transition: transform 0.2s;
+}
+
+.photo-slide_instalogo:hover,
+.photo-slide_container_img:hover,
+.products_item:hover {
+  transform: scale(1.02);
+}
+
+.photo-slide_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.photo-slide_container img {
+  height: 150px;
+}
+
+#privileges {
+  background-color: #63e2c6;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 360px;
+}
+.privileges_item {
+  width: 300px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.privileges_item p {
+  text-align: center;
+}
+
+#footer {
+  height: 180px;
+  display: flex;
+  padding: 30px;
+}
+
+.footer_about {
+  width: 40%;
+}
+
+.footer_menu {
+  width: 35%;
+}
+.footer_menu ul {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_menu li a:hover {
+  color: #41b467;
+}
+
+.footer_menu a {
+  color: #1b4332;
+  text-decoration: none;
+}
+
+.footer_subscribe {
+  width: 25%;
+}
+
+.footer_input-box_email {
+  height: 20px;
+  width: 190px;
+}
+
+.footer_input-box_button {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #40916c;
+  color: white;
+  height: 25px;
+  width: 90px;
+}
+
+.footer_input-box_button:hover {
+  background-color: #04aa6d;
+}
+
+.footer_subscribe img {
+  height: 30px;
+  padding: 15px;
+  float: right;
+  transition: transform 0.2s;
+}
+
+.footer_subscribe img:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+  color: whitesmoke;
+  background-color: #1b4332;
+}

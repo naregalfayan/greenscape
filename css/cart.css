@@ -1,0 +1,12 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+.box_cart {
+  margin-top: 150px;
+  height: 522px;
+  text-align: center;
+}
+
+.current .bi {
+  color: #41b467;
+}

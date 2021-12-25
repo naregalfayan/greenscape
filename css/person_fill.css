@@ -1,0 +1,67 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
+.current .bi {
+  color: #41b467;
+}
+
+form {
+  width: 400px;
+  margin-top: 130px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #40916c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #04aa6d;
+}
+.root-container {
+  display: flex;
+  justify-content: center;
+  height: 94.5vh;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw a,
+span a {
+  text-decoration: none;
+  color: #40916c;
+}
+
+span a:hover,
+span.psw a:hover {
+  color: #41b467;
+}
+
+.bottom_line {
+  display: flex;
+  justify-content: space-between;
+}
